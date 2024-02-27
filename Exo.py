@@ -34,9 +34,7 @@ def filtre_de_bloom(Taille_Filtre_Bloom, fonctions_de_hachage, elements):
     return Bloom
 
 def chercher_Bloom(elements,fonctions_de_hachage,filtre_bloom):
-    
     resultBool=False
-    
     return 
 
 def transform_text_into_int(E):
@@ -50,26 +48,16 @@ if __name__ == "__main__":
     # Nombre de fonctions de hachage à générer
     nbFonctionsDeHachage = 3
     
-    # Taille du filtre de bloom
+    # Taille du filtre de bloom (This will be changed to be an input later)
     Taille_Filtre_Bloom = 10
     
     # Générer les fonctions de hachage
     fonctions_de_hachage = generer_fonctions_de_hachage(nbFonctionsDeHachage, Taille_Filtre_Bloom)
     
     elementsExistant =  [1, 2, 3, 4] 
+    elementsnonExistant = [5, 6, 7, 8]
     
-    for element in elementsExistant:
-        for h in fonctions_de_hachage:
-            print(h(element))
-            
-    elementsTest =  [1, 2, 3, 4] 
     
-    print("Test")
-    
-    for element in elementsTest:
-        for h in fonctions_de_hachage:
-            print(h(element))
-
 
         
     
