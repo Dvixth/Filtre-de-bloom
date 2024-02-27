@@ -1,0 +1,17 @@
+1) Le tableau B boolean d'une grande taille 
+2) la génaration des théta aléatoire 
+3) construction des fonctions de hachages
+
+
+I)Fonctions a faire :
+    1)Fonction génération des Thêta : 
+        cette fonction retourne un Thêta améatoire
+    2)Fonction filtre de Bloom(Taille_Filtre_Bloom) : 
+        Cette fonction commence par initaliser un tableau boolean a faux 
+
+
+
+
+
+II)But général de l'algorithme : 
+    
